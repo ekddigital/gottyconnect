@@ -1,0 +1,12 @@
+{
+  "name": "gottyconnect",
+  "type": "api",
+  "deployMode": "script",
+  "runtime": "binary",
+  "deployScript": "deploy-gotty-production.sh",
+  "skipNginx": true,
+  "skipSSL": true,
+  "skipPreflightChecks": true,
+  "healthCheckUrl": "https://ttydconnect.ekddigital.com/health",
+  "healthCheckTimeout": 60
+}
